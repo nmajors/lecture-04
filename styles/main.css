@@ -3,13 +3,14 @@
   width: 80px;
   background-color: crimson;
   /*transition: background-color 3s, height 1s;*/
+  animation: 5s linear 5s dance-idarb-dance;
 }
 
 .idarb:hover {
   background-color: blue;
   height: 200px;
   /*transition: background-color 3s, height 1s;*/
-  animation: 5s dance-idarb-dance;
+
 }
 
 .face {
@@ -36,11 +37,10 @@
 @keyframes dance-idarb-dance {
   0% {
 
-
   }
 
   50% {
-    transfrom: translateX(100px);
+    transform: translateX(100px);
   }
 
   100% {
