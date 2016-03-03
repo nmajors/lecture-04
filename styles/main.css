@@ -9,16 +9,17 @@
 }
 
 .box1 {
-  flex-shrink: 1;
+  order: 2;
   background-color: burlywood;
 }
 
 .box2 {
-  flex-shrink: 2;
+  order: 5;
   background-color: crimson;
 }
 
 .box3 {
+  order: 3;
   background-color: blue;
 }
 
