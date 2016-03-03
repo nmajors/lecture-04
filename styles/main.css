@@ -2,11 +2,13 @@
   height: 150px;
   width: 80px;
   background-color: crimson;
+  transition: background-color 3s, height 3s;
 }
 
 .idarb:hover {
   background-color: blue;
-  transition: background-color 3s;
+  height: 200px;
+  transition: background-color 3s, height 3s;
 }
 
 .face {
